@@ -1,8 +1,6 @@
 ## Programs Needed:
 
-- Whisper
-- NVIDIA GPU acceleration
-- PyTorch
+Whisper — NVIDIA GPU acceleration — PyTorch
 
 **Note: You must first install Whisper and have NVIDIA's GPU acceleration enabled along with PyTorch. No explanation of the installation process is provided here. Please refer to the official documentation for instructions.**
 
