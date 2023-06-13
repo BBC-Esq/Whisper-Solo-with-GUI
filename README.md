@@ -1,16 +1,23 @@
-OBVIOUSLY YOU MUST FIRST INSTALL WHISPER AND HAVE NVIDIA'S GPU-ACCELLERATION GOING, PYTORCH ETC. NO EXPLANATION OF THAT HERE, COME BACK WHEN YOU GET THAT GOING
+## Programs Needed:
 
-"Solowhispermenu.py"
-GUI using PyQT framework or what not.
+- Whisper
+- NVIDIA GPU acceleration
+- PyTorch
 
-"Solowhispermenu.bat"
-Initiates the GUI.
+**Note: You must first install Whisper and have NVIDIA's GPU acceleration enabled along with PyTorch. No explanation of the installation process is provided here. Please refer to the official documentation for instructions.**
 
-"solowhisper.bat"
-What actually runs the Whisper command based on the options you select through the GUI.
+## Instructions:
 
-INSTRUCTIONS:
+1. Put all files in the system PATH.
+2. Open a command prompt in the directory where the file you want to process is located.
+3. Type "solowhisper" and hit Enter.
 
-Put all files in the sytem PATH.  Open a command prompt IN THE DIRECTORY THE FILE YOU WANT TO PROCESS.  Type "solowhisper"  Hit Enter.  Done.
+## Summary of Scripts:
 
-Thanks for visiting!
+| Script                   | Description                                                               |
+|--------------------------|---------------------------------------------------------------------------|
+| "Solowhispermenu.bat"    | Initiates the GUI using PyQT framework or other compatible frameworks.     |
+| "Solowhispermenu.py"     | A GUI that allows you to select options for the Whisper command.           |
+| "solowhisper.bat"        | Executes the Whisper command based on the options selected through the GUI.|
+
+Thank you for visiting!
