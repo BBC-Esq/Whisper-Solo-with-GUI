@@ -1,8 +1,8 @@
-## Programs Needed:
+## Dependencies:
 
-Whisper — NVIDIA GPU acceleration — PyTorch
+Whisper — NVIDIA CUDA — PyTorch
 
-**Note: You must first install Whisper and have NVIDIA's GPU acceleration enabled along with PyTorch. No explanation of the installation process is provided here. Please refer to the official documentation for instructions.**
+**Note: Make sure to read up on what versions of CUDA work with what verisons of PyTorch...and make sure both of those will work with whatever version of Whisper you use.  Guides are avaialble online.**
 
 ## Instructions:
 
@@ -12,10 +12,10 @@ Whisper — NVIDIA GPU acceleration — PyTorch
 
 ## Summary of Scripts:
 
-| Script                   | Description                                                               |
-|--------------------------|---------------------------------------------------------------------------|
-| "Solowhispermenu.bat"    | Initiates the GUI using PyQT framework or other compatible frameworks.     |
-| "Solowhispermenu.py"     | A GUI that allows you to select options for the Whisper command.           |
-| "solowhisper.bat"        | Executes the Whisper command based on the options selected through the GUI.|
+| Script                   | Description                                                                |
+|--------------------------|----------------------------------------------------------------------------|
+| Solowhispermenu.bat      | Initiates the GUI using PyQT framework or other compatible frameworks.     |
+| Solowhispermenu.py       | A GUI that allows you to select options for the Whisper command.           |
+| solowhisper.bat          | Executes the Whisper command based on the options selected through the GUI.|
 
 Thank you for visiting!
